@@ -1,0 +1,1960 @@
+*{
+  /*  margin: 0;
+    padding: 0;*/
+   box-sizing: border-box;
+}
+
+
+
+
+@font-face {
+    font-family: "GothamProBlack";
+    src: url("fonts/GothamProBlack/GothamProBlack.eot");
+    src: url("fonts/GothamProBlack/GothamProBlack.eot?#iefix") format("embedded-opentype"),
+    url("fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+
+
+
+}
+
+body {
+     margin: 0;
+     padding: 0;
+    display: block;
+
+ }
+
+.part1 {
+    position: relative;
+    width: 100%;
+    background-image: url(img/new.jpg);
+    background-repeat: no-repeat;
+    min-width: 1200px;
+    background-position: center 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.part2 {
+    background-image: url(img/blok2new.jpg);
+    min-width: 1200px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.second {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.blok-logo {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blok-logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+    .logo-left {
+        flex: 1;
+    }
+        .logo-right1 {
+             width: 300px;
+            text-align: left;
+            font-family: 'Gotham Pro Regular', sans-serif;
+        }
+        .logo-right2 {
+            width: 250px;
+            text-align: left;
+            font-family: 'Gotham Pro Regular', sans-serif;
+        }
+
+
+.naklon {
+    transform: skewY(12deg);
+}
+
+.blok-master {
+    display: flex;
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    line-height: 45px;
+    text-align: left;
+}
+
+    .master-left {
+        height: 400px;
+        position: relative;
+        z-index: 1;
+    }
+
+        .master-left:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 400px;
+            height: 120px;
+            left: 55px;
+            transform: skewY(-20deg);
+            bottom: 175px;
+        }
+
+        .master-left:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background: #333333;
+            width: 380px;
+            height: 50px;
+            left: 125px;
+            transform: skewY(-20deg);
+            bottom: 170px;
+        }
+
+
+         .master-left1 {
+             font-size: 25px;
+             transform: skewY(12deg);
+            transform-origin: 0 15%;
+            position: relative;
+         }
+
+
+        .master-left1:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background: #ffffff;
+            width: 60px;
+            height: 30px;
+            right: 65px;
+            transform: skewY(-29deg);
+            top: -70px;
+        }
+
+
+        .master-left2 {
+              font-size: 58px;
+              transform: skewY(12deg);
+              transform-origin: 0 15%;
+              font-family: 'Gotham Pro Black',sans-serif;
+              line-height: 56px;
+              position: relative;
+            z-index: 2;
+
+          }
+
+            .master-left2:before {
+                content: " ";
+                position: absolute;
+                z-index: -3;
+                box-sizing: border-box;
+                background: #ffffff;
+                width: 35px;
+                height: 20px;
+                left: 105px;
+                transform: skewY(-29deg);
+                bottom: -65px;
+            }
+
+
+
+         .master-left-data {
+             font-size: 25px;
+             transform: translateY(60px);
+             font-family: 'Gotham Pro Regular', sans-serif;
+             line-height: 26px;
+             margin-top: 50px;
+         }
+
+            .master-left-data span{
+                font-family: 'Gotham Pro Black',sans-serif;
+                font-size: 36px;
+            }
+
+
+.blok-button{
+    margin-top: 50px;
+    height: 55px;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+    .button-left:after{
+        content:"";
+        width: 462px;
+        height: 50px;
+        border: 2px solid #ec6529;
+        background: #ec6529;
+        transform: skewX(20deg);
+        position: absolute;
+        z-index: 1;
+        box-sizing: border-box;
+        left: 42px;
+    }
+
+
+        .button-left:hover:after{
+            transform: translateY(5px);
+            transition: 0.5s;
+            border: 2px solid black;
+        }
+
+
+        .button-left:before{
+            content: "Купить билет";
+            font-family: 'Gotham Pro Regular', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 6px;
+            position: absolute;
+            z-index: 2;
+            box-sizing: border-box;
+            color: #ffffff;
+            background: #ec6529;
+            width: 250px;
+            height: 30px;
+            left: 150px;
+            top: 7px;
+        }
+
+
+
+.blok-video{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: left;
+    margin-top: 200px;
+}
+
+    .blok-video-left{
+        width:620px;
+        padding-top: 50px;
+        /*height: 460px;*/
+        position: relative;
+
+
+    }
+
+         .blok-video-left:before{
+              content: " ";
+                width:675px;
+                height:450px;
+
+               background-image: url(img/orez3.png);
+                z-index: 2;
+                background-repeat: no-repeat;
+                position: absolute;
+
+                 filter: blur(1px);
+                left: -2px;
+
+            }
+
+            .blok-video-left:after{
+                content: " ";
+                width:670px;
+                height: 450px;
+                padding-top: 50px;
+                background-image: url(img/treugol.png);
+                z-index: 2;
+                background-repeat: no-repeat;
+                position: absolute;
+                bottom: 46px;
+                top: 220px;
+                left:330px;
+
+            }
+                .blok-video-left:hover:before{
+                visibility: hidden;
+                   transition: 0.3s;
+                }
+                    .blok-video-left:hover:after{
+                        visibility: hidden;
+                        transition: 0.3s;
+                    }
+
+
+.blok-video-right{
+        font-size: 50px;
+        transform: skewY(12deg);
+        color: #ffffff;
+        padding-top: 150px;
+        padding-left: 30px;
+        position: relative;
+        z-index: 3;
+        font-family: 'Gotham Pro Black',sans-serif;
+    }
+
+        .blok-video-right:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 480px;
+            height: 170px;
+            left: 15px;
+            transform: skewY(-26.5deg);
+            bottom: 250px;
+        }
+
+
+        .blok-video-right:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background: #ffffff;
+            width: 85px;
+            height: 57px;
+            left: 445px;
+            transform: skewY(-26.5deg);
+            bottom: 500px;
+        }
+
+
+.blok-vopros {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    font-size: 50px;
+    transform: skewY(12deg);
+    flex-flow: row-reverse;
+}
+
+    .vopros-left{
+    }
+
+    .vopros-right{
+        padding-top: 100px;
+       width: 550px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        padding-left: 40px;
+        position: relative;
+    }
+
+        .vopros-right:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 340px;
+            height: 120px;
+            left: 75px;
+            transform: skewY(-26.5deg);
+            bottom: 25px;
+        }
+
+.blok-megafon{
+    display: flex;
+    width: 100%;
+    height: 610px;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px ;
+    padding-top: 100px;
+}
+
+    .tx1{
+        transform: translateY(-100px);
+        width: 320px;
+        line-height: 30px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+    }
+        .ramka1{
+            width: 225px;
+            height: 188px;
+            padding-left: 40px;
+         }
+
+
+    .tx2 {
+         width: 320px;
+        line-height: 30px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+    }
+
+         .ramka2 {
+             width: 190px;
+            height: 215px;
+             padding-left: 40px;
+        }
+
+
+    .tx3 {
+        transform: translateY(100px);
+         width: 330px;
+        line-height: 30px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+    }
+
+        .ramka3 {
+            width: 201px;
+            height: 197px;
+            padding-left: 15px;
+         }
+
+
+
+.blok-skidka{
+    display: flex;
+    width: 100%;
+    height: 280px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Gotham Pro Black',sans-serif;
+    margin-top: 10px;
+}
+
+
+.blok-zaec{
+    display: flex;
+    width: 100%;
+    height: 750px;
+}
+
+    .zaec-left-up{
+        font-size: 58px;
+        transform: skewY(12deg);
+        padding-top: 60px;
+        padding-left: 40px;
+        height: 165px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        text-align: left;
+        z-index: 2;
+        position: relative;
+    }
+
+        .zaec-left-up:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background:#ec6529;
+            width: 100px;
+            height: 60px;
+            right: 15px;
+            transform: skewY(-26.5deg);
+           bottom: 50px;
+        }
+
+
+    .zaec-left-img{
+            padding-left: 50px;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
+    }
+
+        .zaec-left-img:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #333333;
+            width: 430px;
+            height: 190px;
+            left: 15px;
+            transform: skewY(12deg);
+            bottom: 250px;
+        }
+
+
+        .zaec-left-img:after {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background:#ec6529;
+            width: 175px;
+            height: 100px;
+            left: -145px;
+            transform: skewY(-26.5deg);
+            bottom: 20px;
+        }
+
+
+    .zaec-right{
+        font-size: 25px;
+        padding-top: 300px;
+        padding-left: 230px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+        position: relative;
+    }
+
+        .zaec-right p:before {
+            content: " ";
+            position: absolute;
+            z-index: 4;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 25px;
+            height: 7px;
+            left: 190px;
+            transform: skewY(12deg);
+            margin-top: 5px;
+        }
+
+.blok-spiker{
+    display: flex;
+    width: 100%;
+    height: 950px;
+    color: #ffffff;
+    margin-top: 180px;
+}
+
+    .spiker-title{
+        font-size: 50px;
+        transform: skewY(12deg);
+        padding: 100px 0 50px 0;
+        font-family: 'Gotham Pro Black',sans-serif;
+        position: relative;
+        letter-spacing:8px;
+    }
+
+        .spiker-title:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 340px;
+            height: 120px;
+            left: 75px;
+            transform: skewY(-26.5deg);
+            bottom: 25px;
+        }
+
+        .spiker-title:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background: #333333;
+            width: 300px;
+            height: 120px;
+            left: 145px;
+            transform: skewY(-26.5deg);
+            bottom: 20px;
+        }
+
+
+
+.spiker-spisok{
+        font-size: 23px;
+        padding-left: 40px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+         position: relative;
+}
+
+
+        .spiker-spisok p:before {
+            content:" ";
+            position: absolute;
+            z-index: 4;
+            box-sizing: border-box;
+            background: #ffffff;
+            width: 25px;
+            height: 7px;
+            transform: skewY(12deg);
+            margin-top: 5px;
+            left: 5px;
+        }
+
+
+    .spiker-goroda{
+        display: flex;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        flex-basis: 200px;
+        flex-wrap: wrap;
+        line-height: 55px;
+
+
+    }
+        .goroda-uchasniki{
+            flex-grow: 2;
+            flex-wrap: wrap;
+            flex-basis: 200px;
+        }
+
+
+        .spiker-goroda p{
+            font-size: 83px;
+            font-family: 'Gotham Pro Black', sans-serif;
+
+
+
+        }
+
+        .spiker-goroda span{
+             font-size: 20px;
+            font-family: 'Gotham Pro Regular', sans-serif;
+
+        }
+
+        .sg1{
+            flex-basis: 180px;
+        }
+        .sg2 {
+            flex-basis: 150px;
+        }
+        .sg3{
+            flex-basis: 150px;
+        }
+
+
+
+
+.blok-knigi{
+    display: flex;
+    width: 100%;
+    height: 425px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+    .knigi-img:before {
+        content:" ";
+        position: absolute;
+        z-index: -1;
+        box-sizing: border-box;
+        background: #ec6529;
+        width: 500px;
+        height: 150px;
+        transform: skewY(-16deg);
+        bottom: 85px;
+    }
+
+    .knigi-img:after {
+        content: " ";
+        position: absolute;
+        z-index: -2;
+        box-sizing: border-box;
+        background: #333333;
+        width: 155px;
+        height: 45px;
+        right: 660px;
+        transform: skewY(-16deg);
+        top:110px;
+    }
+
+
+    .knigi-right{
+        transform: skewY(-16deg);
+        color: #ffffff;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+
+    .knigi-right p{
+        font-size: 50px;
+        margin-bottom: 0px;
+        font-family: 'Gotham Pro Black',sans-serif;
+    }
+
+    .knigi-right span{
+        font-size: 25px;
+        padding-top: -40px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+    }
+
+
+
+
+.ktitle{
+    position: relative;
+    padding-bottom: -300px;
+    margin-top: 190px;
+    margin-bottom: -250px;
+    font-family: 'Gotham Pro Black',sans-serif;
+    margin-top: 300px;
+}
+
+        .ktitle:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 340px;
+            height: 120px;
+            left: 35px;
+            transform: skewY(-26.5deg);
+            bottom: 25px;
+        }
+
+.blok-kepka{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+
+    .blok-kepka p {
+        text-align: justify;
+        font-size: 23px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+        line-height: 20px;
+        list-style-type:none;
+        box-sizing: border-box;
+    }
+
+         .kepka-right li:before {
+            content:" ";
+            position: absolute;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 25px;
+            height: 7px;
+            transform: skewY(12deg);
+             list-style-type:none;
+             left: -35px;
+             margin-top: 10px;
+            }
+
+        .kepka-centr li:before {
+            content:" ";
+            position: absolute;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 25px;
+            height: 7px;
+            transform: skewY(12deg);
+            list-style-type:none;
+            left: -35px;
+            margin-top: 10px;
+        }
+
+        .kepka-left li:before {
+            content:" ";
+            position: absolute;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 25px;
+            height: 7px;
+            transform: skewY(12deg);
+            list-style-type:none;
+            left: -35px;
+            margin-top: 10px;
+
+        }
+            .galki li{
+                list-style-type:none;
+                box-sizing: border-box;
+                position: relative;
+            }
+        .kepka-left{
+            box-sizing: border-box;
+        }
+        .kepka-centr {
+            box-sizing: border-box;
+        }
+        .kepka-right{
+            box-sizing: border-box;
+        }
+        .kepka-cena:before{
+            content:" ";
+            position: absolute;
+            z-index: 4;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 145px;
+            height: 7px;
+
+        }
+        .kepka-strong{
+        font-size: 50px;
+        transform: skewY(12deg);
+        z-index: 2;
+        position: relative;
+        font-family: 'Gotham Pro Black',sans-serif;
+            box-sizing: border-box;
+    }
+
+        .kp:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 140px;
+            height: 60px;
+            transform: skewY(-26.5deg);
+
+        }
+
+    .kepka-cena{
+        font-size: 58px;
+        text-align: center;
+        letter-spacing: 10px;
+        font-family: 'Gotham Pro Black',sans-serif;
+    }
+
+    .korona{
+        margin-bottom: -70px;
+    }
+
+    .sroki{
+        text-align: center;
+    }
+
+
+.blok-tri-knopki{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+        .tri1:after{
+            content:"";
+            width: 300px;
+            height: 50px;
+            border: 2px solid #ec6529;
+            background: #ec6529;
+            transform: skewX(20deg);
+            position: absolute;
+            z-index: 1;
+            box-sizing: border-box;
+            left: 50px;
+            bottom: 5px;
+
+        }
+
+        .tri1:hover:after{
+            transform: translateY(5px);
+            transition: 0.5s;
+            border: 2px solid black;
+        }
+
+        .tri1:before {
+            content: "Купить билет";
+            font-family: 'Gotham Pro Regular', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 6px;
+            position: absolute;
+            z-index: 2;
+            box-sizing: border-box;
+            color: #ffffff;
+            background: #ec6529;
+            width: 200px;
+            height: 30px;
+            left: 100px;
+            bottom: 17px;
+
+        }
+
+        .tri2:after{
+            content:"";
+            width: 300px;
+            height: 50px;
+            border: 2px solid #ec6529;
+            background: #ec6529;
+            transform: skewX(20deg);
+            position: absolute;
+            z-index: 1;
+            box-sizing: border-box;
+            left: 440px;
+            bottom: 5px;
+        }
+
+        .tri2:hover:after{
+            transform: translateY(5px);
+            transition: 0.5s;
+            border: 2px solid black;
+        }
+
+        .tri2:before {
+            content: "Купить билет";
+            font-family: 'Gotham Pro Regular', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 6px;
+            position: absolute;
+            z-index: 2;
+            box-sizing: border-box;
+            color: #ffffff;
+            background: #ec6529;
+            width: 200px;
+            height: 30px;
+            left: 490px;
+            bottom: 17px;
+        }
+        .tri3:after{
+            content:"";
+            width: 302px;
+            height: 50px;
+            border: 2px solid #ec6529;
+            background: #ec6529;
+            transform: skewX(20deg);
+            position: absolute;
+            z-index: 1;
+            box-sizing: border-box;
+            left: 830px;
+            bottom: 5px;
+        }
+
+        .tri3:hover:after{
+            transform: translateY(5px);
+            transition: 0.5s;
+            border: 2px solid black;
+        }
+
+        .tri3:before {
+            content: "Купить билет";
+            font-family: 'Gotham Pro Regular', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 6px;
+            position: absolute;
+            z-index: 2;
+            box-sizing: border-box;
+            color: #ffffff;
+            background: #ec6529;
+            width: 200px;
+            height: 30px;
+            left: 880px;
+            bottom: 17px;
+        }
+
+
+.blok-podknopochnik{
+    width: 100%;
+    height: 85px;
+    font-size: 25px;
+    color: #ec6529;
+    text-align: center;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    margin-top: 70px;
+}
+
+.blok-nad-paketnik{
+    font-size: 58px;
+    transform: skewY(12deg);
+    width: 100%;
+    height: 120px;
+    font-family: 'Gotham Pro Black',sans-serif;
+    margin-bottom: -50px;
+    margin-top: 270px;
+}
+
+        .blok-nad-paketnik:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 340px;
+            height: 120px;
+            left: 75px;
+            transform: skewY(-26.5deg);
+            bottom: 25px;
+        }
+
+
+.paketi-nomer {
+    font-size: 45px;
+    transform: skewY(12deg);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gotham Pro Black',sans-serif;
+    z-index: 1;
+}
+
+
+.blok-paketi{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+}
+
+
+
+
+    .paketi1{
+        transform: translateY(270px);
+        width: 270px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        z-index: 1;
+        position: relative;
+    }
+
+
+        .paketi1:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 260px;
+            height: 260px;
+            left: 5px;
+            transform: skewY(-16deg);
+            top: -40px;
+
+        }
+
+
+    .paketi2{
+        transform: translateY(180px);
+        width: 270px;
+        font-family: 'Gotham Pro Black',sans-serif;
+    }
+
+        .paketi2:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 260px;
+            height: 260px;
+            left: 5px;
+            transform: skewY(-16deg);
+            top: -40px;
+
+        }
+
+.paketi3{
+        transform: translateY(90px);
+        width: 270px;
+        font-family: 'Gotham Pro Black',sans-serif;
+    }
+        .paketi3:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 260px;
+            height: 260px;
+            left: 5px;
+            transform: skewY(-16deg);
+            top: -40px;
+
+        }
+
+    .paketi4{
+        width: 270px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        transform: translateY(0px);
+
+    }
+
+        .paketi4:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 260px;
+            height: 260px;
+            left: 5px;
+            transform: skewY(-16deg);
+            top: -40px;
+
+        }
+
+
+.paketi-procent{
+                font-size: 90px;
+                color: #ffffff;
+                font-family: 'Gotham Pro Black',sans-serif;
+                z-index: 1;
+            }
+            .paketi-bilet{
+                font-size: 27px;
+                color: #ffffff;
+                z-index: 1;
+            }
+            .paket-skidka{
+                font-size: 16px;
+                color: #ffffff;
+                font-family: 'Gotham Pro', sans-serif;
+                z-index: 1;
+            }
+            .paket-podobnee{
+                font-size: 25px;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+                font-family: 'Gotham Pro Regular', sans-serif;
+                position: relative;
+                height: 30px;
+
+            }
+
+                    .paket-podobnee:after{
+                        content:"";
+                        width: 240px;
+                        height: 50px;
+                        border: 2px solid #ec6529;
+                        background: #ec6529;
+                        transform: skewX(20deg);
+                        position: absolute;
+                        z-index: 1;
+                        box-sizing: border-box;
+                        left: 15px;
+                        bottom: 5px;
+
+
+                    }
+
+                    .paket-podobnee:hover:after{
+                        transform: translateY(5px);
+                        transition: 0.5s;
+                        border: 2px solid black;
+                    }
+
+                    .paket-podobnee:before {
+                        content: "Подробнее";
+                        font-family: 'Gotham Pro Regular', sans-serif;
+                        text-align: center;
+                        font-size: 25px;
+                        padding-top: 6px;
+                        position: absolute;
+                        z-index: 2;
+                        box-sizing: border-box;
+                        color: #ffffff;
+                        background: #ec6529;
+                        width: 200px;
+                        height: 30px;
+                        left:25px;
+                        bottom: 17px;
+                        margin-top: 30px;
+                    }
+
+
+
+.blok-proshloe{
+    display: flex;
+    width: 100%;
+    height: 655px;
+}
+     .proshloe-left{
+        width:620px;
+        padding-top: 100px;
+        position: relative;
+
+}
+            .proshloe-left:before{
+                content: " ";
+                width:680px;
+                height:450px;
+                background-image: url(img/orez3.png);
+                z-index: 2;
+                background-repeat: no-repeat;
+                position: absolute;
+                filter: blur(1px);
+                left: -2px;
+
+            }
+
+            .proshloe-left:after{
+                content: " ";
+                width:680px;
+                height: 450px;
+                padding-top: 50px;
+                background-image: url(img/treugol.png);
+                z-index: 2;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 280px;
+                left:290px;
+
+            }
+                .proshloe-left:hover:before{
+                    visibility: hidden;
+                    transition: 0.3s;
+                }
+                .proshloe-left:hover:after{
+                    visibility: hidden;
+                    transition: 0.3s;
+                }
+
+.proshloe-right{
+        font-size: 58px;
+        transform: skewY(12deg);
+        color: #ffffff;
+       /* padding-top: 150px;*/
+        padding-left: 30px;
+        position: relative;
+        z-index: 3;
+        font-family: 'Gotham Pro Black',sans-serif;
+        padding-top: 200px;
+}
+
+
+        .proshloe-right:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 480px;
+            height: 170px;
+            left: 15px;
+            transform: skewY(-26.5deg);
+            bottom: 205px;
+        }
+
+
+        .proshloe-right:after {
+            content: " ";
+            position: absolute;
+            z-index: -2;
+            box-sizing: border-box;
+            background: #ffffff;
+            width: 85px;
+            height: 57px;
+            left: 445px;
+            transform: skewY(-26.5deg);
+            bottom: 450px;
+        }
+
+
+    .blok-predlozenie{
+        font-size: 58px;
+        transform: skewY(12deg);
+        width: 100%;
+        height: 120px;
+        margin-top: 350px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        margin-bottom: -100px;
+        position: relative;
+    }
+            .blok-predlozenie:before {
+                content: " ";
+                position: absolute;
+                z-index: -1;
+                box-sizing: border-box;
+                background: #ec6529;
+                width: 340px;
+                height: 120px;
+                left: 25px;
+                transform: skewY(-26.5deg);
+               bottom: -25px;
+            }
+
+.blok-turov {
+    display: flex;
+    width: 100%;
+    height: 465px;
+    font-size: 50px;
+    margin-top: 140px;
+}
+
+    .turov-left{
+        width:620px;
+        position: relative;
+       /* padding-top: 45px;*/
+
+}
+
+        .turov-left:before{
+            content: " ";
+            width:680px;
+            height:450px;
+            background-image: url(img/orez3.png);
+            z-index: 2;
+            background-repeat: no-repeat;
+            position: absolute;
+            filter: blur(1px);
+            left: -2px;
+
+}
+
+        .turov-left:after{
+            content: " ";
+            width:680px;
+            height: 450px;
+            padding-top: 50px;
+            background-image: url(img/treugol.png);
+            z-index: 2;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 46px;
+            top: 180px;
+            left:290px;
+
+        }
+        .turov-left:hover:before{
+            visibility: hidden;
+            transition: 0.3s;
+        }
+            .turov-left:hover:after{
+                visibility: hidden;
+                transition: 0.3s;
+
+            }
+
+
+
+.turov-right {
+        font-size: 50px;
+        transform: skewY(12deg);
+        color: #ffffff;
+        padding-top: 50px;
+        padding-left: 30px;
+        position: relative;
+        z-index: 3;
+    }
+            .turov-right span{
+                 font-size: 25px;
+                 margin-bottom: -20px;
+             }
+             .turov-right p{
+                 margin-top: -15px;
+                 font-family: 'Gotham Pro Black',sans-serif;
+
+             }
+
+
+                    .turov-right:before {
+                        content: " ";
+                        position: absolute;
+                        z-index: -1;
+                        box-sizing: border-box;
+                        background: #ec6529;
+                        width: 480px;
+                        height: 170px;
+                        left: 15px;
+                        transform: skewY(-26.5deg);
+                        top: 85px;
+                    }
+
+
+                        .turov-right:after {
+                            content: " ";
+                            position: absolute;
+                            z-index: -2;
+                            box-sizing: border-box;
+                            background: #ffffff;
+                            width: 85px;
+                            height: 57px;
+                            left: 475px;
+                            transform: skewY(-26.5deg);
+                            top: -65px;
+                        }
+
+
+
+
+
+
+.blok-text-turov{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+}
+    .text-turov-left{
+        font-size: 36px;
+        font-family: 'Gotham Pro Black',sans-serif;
+        width: 670px;
+        text-align: left;
+        margin-right: 0px;
+        line-height: 46px;
+        padding-top: 20px;
+    }
+        .turov-ssilka{
+            margin-left: 50px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 25px;
+            z-index: 2;
+            font-family: 'Gotham Pro Regular',sans-serif;
+            position: relative;
+            width: 400px;
+           padding-bottom: 50px;
+        }
+
+
+            .turov-ssilka:after{
+                content:"";
+                width: 350px;
+                height: 50px;
+                border: 2px solid #ec6529;
+                background: #ec6529;
+                transform: skewX(20deg);
+                position: absolute;
+                z-index: 1;
+                box-sizing: border-box;
+                left: 50px;
+                bottom: 5px;
+
+            }
+
+            .turov-ssilka:hover:after{
+                transform: translateY(5px);
+                transition: 0.5s;
+                border: 2px solid black;
+            }
+
+            .turov-ssilka:before {
+                content: "Узнать подробнее";
+                font-family: 'Gotham Pro Regular', sans-serif;
+                text-align: center;
+                font-size: 25px;
+                padding-top: 6px;
+                position: absolute;
+                z-index: 2;
+                box-sizing: border-box;
+                color: #ffffff;
+                background: #ec6529;
+                width: 250px;
+                height: 30px;
+                left: 100px;
+                bottom: 17px;
+
+            }
+
+
+.text-turov-right{
+        font-family: 'Gotham Pro Regular',sans-serif;
+        font-size: 25px;
+        padding-right: 30px;
+        line-height: 34px;
+        padding-top: 20px;
+    position: relative;
+    padding-left: 3px;
+
+    }
+
+
+
+
+
+.blok-sv{
+    display: flex;
+    width: 100%;
+    height: 58px;
+    font-size: 58px;
+    transform: skewY(12deg);
+    margin-top: 500px;
+    font-family: 'Gotham Pro Black',sans-serif;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+        .blok-sv:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 340px;
+            height: 120px;
+            left: 15px;
+            transform: skewY(-26.5deg);
+            top: -55px;
+        }
+
+
+.blok-itog{
+    display: flex;
+    width: 100%;
+    height: 805px;
+    font-family: 'Gotham Pro Regular',sans-serif;
+    line-height: 36px;
+    font-size: 25px;
+}
+
+
+
+    .itog-left{
+        width: 50%;
+    }
+
+        .itog-left li{
+            list-style-type: none;
+            margin-bottom: 15px;
+            padding-left: 20px;
+
+        }
+        .itog-left b{
+            font-size: 36px;
+            font-weight: bold;
+            font-family: 'Gotham Pro Black', sans-serif;
+        }
+
+    .sv-left-partnery{
+        position: relative ;
+    }
+
+            .sv-left-partnery li:before {
+                content:" ";
+                position: absolute;
+                z-index: 4;
+                box-sizing: border-box;
+                background: #ec6529;
+                width: 25px;
+                height: 7px;
+                left: 10px;
+                transform: skewY(12deg);
+               margin-top: 12px;
+             }
+
+    .itog-right{
+        padding-left: 130px;
+        position: relative;
+    }
+        .itog-right p {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            font-family: 'Gotham Pro Black', sans-serif;
+        }
+
+        .itog-right p:before {
+            content: " ";
+            position: absolute;
+            z-index: 4;
+            box-sizing: border-box;
+            background: #ec6529;
+            width: 50px;
+            height: 15px;
+            left: 60px;
+            transform: skewY(12deg);
+        }
+
+
+        .itog-right li{
+            list-style-type: none;
+        }
+
+
+.blok-partnery {
+    display: flex;
+    width: 100%;
+}
+
+   .partnery-right{
+        font-size: 58px;
+        transform: skewY(12deg);
+       margin-top: 50px;
+        font-family: 'Gotham Pro Black',sans-serif;
+       position: relative;
+    }
+
+            .partnery-right:before {
+                content: " ";
+                position: absolute;
+                z-index: -1;
+                box-sizing: border-box;
+                background: #ec6529;
+                width: 340px;
+                height: 120px;
+                left: 75px;
+                transform: skewY(-26.5deg);
+               bottom: 25px;
+            }
+
+   .partnery-left{
+       transform: skewY(12deg);
+       width: 50%;
+   }
+
+.blok-gen-part{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    font-size: 36px;
+    font-family: 'Gotham Pro Black',sans-serif;
+}
+
+.blok-img-partnerov{
+    display: flex;
+    width: 100%;
+    height: 140px;
+}
+    .ss{
+        width: 25%;
+        justify-content: space-between;
+        margin: 30px 0 ;
+    }
+    .pad{
+        padding-top: 30px;
+    }
+
+
+
+.blok-of-partnery-title{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    font-size: 36px;
+    font-family: 'Gotham Pro Black',sans-serif;
+}
+
+.blok-of-partnery{
+    display: flex;
+    width: 100%;
+    height: 170px;
+}
+
+.blok-prosto-partnery-title {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    font-size: 36px;
+    font-family: 'Gotham Pro Black', sans-serif;
+}
+
+.blok-prosto-partnery{
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+
+.blok-socsety{
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+
+
+footer{
+    min-width: 1200px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8f8f8f;
+    flex-wrap: wrap;
+}
+.podval{
+    display:flex;
+    width: 100%;
+    background: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+.dno{
+    display:flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #8f8f8f;
+    align-content: space-around;
+    align-items: center;
+
+}
+    .im{
+        text-decoration: none;
+        color: #8f8f8f;
+        flex-basis: 200px;
+    }
+
+    .dno-stroka{
+        width: 70%;
+        display: flex;
+    }
+        .a1{
+            flex-basis: 200px;
+        }
+        .a12{
+            flex-basis: 200px;
+            text-decoration: none;
+        }
+
+
+
+
+
+.modal-dialog{
+    width: 370px;
+
+}
+.modal-content{
+
+    background: none;
+    opacity: 1;
+    border: none;
+}
+
+        .modal-body{
+
+
+            font-size: 24px;
+            font-family: 'Gotham Pro Regular', sans-serif;
+            background: none;
+            color: #FFFFFF;
+            border: none;
+            text-align: left;
+        }
+.col{
+    background: none;
+    width: inherit;
+    text-align: left;
+    text-decoration: none;
+}
+
+            .col-md-4{
+                background: none;
+                border:none;
+                font-family: 'Gotham Pro Regular', sans-serif;
+                margin-bottom: 20px;
+                background: none;
+                color: #5c5c5c;
+                text-decoration: none;
+                font-size: 16px;
+                width: 320px;
+                text-align: left;
+                max-width: 100%;
+
+            }
+
+        .modal-header{
+            font-size: 26px;
+            font-family: 'Gotham Pro Black', sans-serif;
+            background: none;
+            color: #FFFFFF;
+            height: 200px;
+            border: none;
+
+        }
+
+            .btn{
+                height: 75px;
+            }
+
+
+
+                .btn:after{
+                    content:"";
+                    width: 340px;
+                    height: 60px;
+                    border: 2px solid #ec6529;
+                    background: #ec6529;
+                    transform: skewX(20deg);
+                    position: absolute;
+                    z-index: 1;
+                    box-sizing: border-box;
+                    left:20px;
+                    bottom: 20px;
+
+                }
+
+                .btn:hover:after{
+                    transform: translateY(5px);
+                    transition: 0.5s;
+                    border: 2px solid black;
+                }
+
+                .btn:before {
+                    content: "Отправить";
+                    font-family: 'Gotham Pro Regular', sans-serif;
+                    text-align: center;
+                    font-size: 25px;
+                    padding-top: 6px;
+                    position: absolute;
+                    z-index: 2;
+                    box-sizing: border-box;
+                    color: #ffffff;
+                    background: #ec6529;
+                    width: 250px;
+                    height: 40px;
+                    left:65px;
+                    bottom: 30px;
+                }
+
+
+
+                        .modal-title{
+                        width: 100%;
+                        height: 30px;
+                        font-size: 24px;
+                        transform: skewY(12deg);
+                        font-family: 'Gotham Pro Regular',sans-serif;
+                        position: relative;
+                        letter-spacing: 2px;
+                            line-height: 25px;
+                            padding-left: 10px;
+                            top:50px;
+                    }
+
+                    .modal-title:before {
+                        content: " ";
+                        position: absolute;
+                        z-index: -1;
+                        box-sizing: border-box;
+                        background: #ec6529;
+                        width: 260px;
+                        height: 90px;
+                        left: 15px;
+                        transform: skewY(-26.5deg);
+                        top: 20px;
+
+                    }
+
+                            .modal-title b{
+                                font-size: 36px;
+                                font-family: 'Gotham Pro Black',sans-serif;
+                            }
+
+                            input {
+
+                                background: none;
+                                text-decoration: none;
+                                border: none;
+                                padding-bottom: 20px;
+                                color: #FFFFFF;
+                                font-size: 26px;
+                                font-family: 'Gotham Pro Regular', sans-serif;
+                            }
+                                 .input a{
+                                    text-decoration: none;
+                                    color:#5c5c5c;
+                                    font-size: 24px;
+
+                                }
+
+
+                            .bord{
+                                border-bottom: 2px solid #5c5c5c;
+
+                            }
+                            .fade{
+                                background: #323232;
+                                opacity: .9;
+                            }
+                            ::placeholder {
+                                color: #FFFFFF;
+                                opacity: 1;
+                            }
+
+                        .vlevo{
+                            text-align: left;
+                            text-decoration: none;
+                            flex-direction: row;
+                        }
+
+
+                            .modal-footer{
+                                border: none;
+                            }
+
+                            :checked{
+                                text-align: left;
+                            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
